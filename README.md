@@ -18,7 +18,10 @@ Requiere macOS 13 Ventura o posterior. Windows y Linux: no disponibles por ahora
 ## Instalar
 
 1. Abre el `.dmg` y arrastra **MusicKind** a **Aplicaciones**.
-2. La app no está notarizada por Apple, así que la primera vez macOS mostrará un aviso. Haz **clic derecho sobre MusicKind → Abrir → Abrir**, o ve a **Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente**. Solo hace falta una vez.
+2. La app no está notarizada por Apple, así que la primera vez macOS mostrará «No se abrió “MusicKind”». **No pulses «Trasladar a la Papelera»: pulsa «Aceptar» (Done).**
+3. Ve a **Ajustes del Sistema → Privacidad y seguridad**, baja hasta «Se bloqueó “MusicKind”…» y pulsa **Abrir igualmente**. Confirma con tu contraseña. Solo hace falta una vez.
+
+En macOS 13–14 también sirve clic derecho → Abrir → Abrir; en macOS 15 Sequoia y posteriores ya no.
 
 El manual de usuario (PDF) viene dentro del `.dmg`.
 
@@ -32,4 +35,4 @@ Abre un [issue](../../issues) con tu versión de macOS, tipo de Mac (Apple Silic
 
 ---
 
-**English.** MusicKind is a free, GPL-3.0-or-later desktop app for DJs on macOS 13+: genre classification, set preparation by BPM and Camelot key, duplicate cleanup and metadata fixing. Download the `.dmg` for your Mac from [Releases](../../releases/latest). The app is not notarized by Apple: on first launch, right-click MusicKind → Open → Open. Source code for each version is attached to its release.
+**English.** MusicKind is a free, GPL-3.0-or-later desktop app for DJs on macOS 13+: genre classification, set preparation by BPM and Camelot key, duplicate cleanup and metadata fixing. Download the `.dmg` for your Mac from [Releases](../../releases/latest). The app is not notarized by Apple: on first launch, click “Done” (not “Move to Trash”) on the “Not Opened” warning, then go to System Settings → Privacy & Security → Open Anyway and confirm with your password (right-click → Open only works on macOS 13–14). Source code for each version is attached to its release.
